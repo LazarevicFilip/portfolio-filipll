@@ -1,0 +1,27 @@
+[
+    {
+        "name" : "Modern JavaScript From The Beginning",
+        "by" : "Brad Traversy",
+        "group" : "courses"
+    },
+    {
+        "name" : "Modern HTML & CSS From The Beginning",
+        "by" : "Brad Traversy",
+        "group" : "courses"
+    },
+    {
+        "name" : "NLP Programiranje",
+        "by" : "Komunikacioni modeli",
+        "group" : "courses"
+    },
+    {
+        "name" : "Srpski ",
+        "level" : "Maternji",
+        "group" : "languages"
+    },
+    {
+        "name" : "Engleski",
+        "level" : "Srednji nivo",
+        "group" : "languages"
+    }
+]

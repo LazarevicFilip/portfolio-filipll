@@ -1,0 +1,14 @@
+[
+    {
+        "title" : "Linux",
+        "precentege" : 80
+    },
+    {
+        "title" : "Git",
+        "precentege" : 60
+    },
+    {
+        "title" : "Media Query",
+        "precentege" : 80
+    }
+]

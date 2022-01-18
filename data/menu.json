@@ -1,0 +1,22 @@
+[
+    {
+        "href" : "#showcase",
+        "tittle" : "O meni"
+    },
+    {
+        "href" : "#skills",
+        "tittle" : "Vestine"
+    },
+    {
+        "href" : "#education",
+        "tittle" : "Obrazovanje"
+    },
+    {
+        "href" : "#courses",
+        "tittle" : "Kursevi"
+    },
+    {
+        "href" : "#projects",
+        "tittle" : "Projekti"
+    }
+]

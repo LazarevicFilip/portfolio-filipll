@@ -1,0 +1,22 @@
+[
+    {
+        "title" : "HTML 5",
+        "precentege" : 90
+    },
+    {
+        "title" : "CSS 3",
+        "precentege" : 80
+    },
+    {
+        "title" : "JavaScript",
+        "precentege" : 80
+    },
+    {
+        "title" : "Bootstrap",
+        "precentege" : 85
+    },
+    {
+        "title" : "SASS",
+        "precentege" : 70
+    }
+]

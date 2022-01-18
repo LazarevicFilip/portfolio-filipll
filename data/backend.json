@@ -1,0 +1,22 @@
+[
+    {
+        "title" : "Laravel",
+        "precentege" : 80
+    },
+    {
+        "title" : "PHP",
+        "precentege" : 75
+    },
+    {
+        "title" : "MySQL",
+        "precentege" : 75
+    },
+    {
+        "title" : "OOP",
+        "precentege" : 70
+    },
+    {
+        "title" : "API'S",
+        "precentege" : 65
+    }
+]

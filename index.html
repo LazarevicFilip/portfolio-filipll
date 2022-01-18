@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tagovi -->
+    <meta name="keywords" content="portfolio,filip,lazarevic,full-stack,developer"/>
+    <meta name="description" content="Moje ime je Filip i dobrodosli na moj portfolio web sajt."/>
+     <!--favicon  -->
+    <link rel="shorcut icon" type="image/icon" href="img/favicon.ico"/>
+    <!-- font icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>FL | Portfolio</title>
+</head>
+<body>
+    <div id="backToTop" class="arrow-top text-center d-none">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <nav class="navbar relative">
+        <div class="container">
+            <ul class="navbar-menu" id="menu">
+            </ul>
+            <div class="navbar-img absolute">
+                <img src="img/me.jpg" alt="Lazarevic Filip">
+            </div>
+        </div>
+        <div class="menu-btn absolute d-none">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+    </nav>
+
+    <section class="showcase" id="showcase">
+       <div class="container">
+            <h1 class="text-xl m-sm">Filip Lazarevic</h1>
+            <h3 class="text-md m-md">Full Stack Web Developer</h3>
+            <div class="info">
+                <span>Email: lazarevicfilip22&#64;gmail.com</span><span>Telefon: &#43;381 66-214-912</span>
+            </div>
+            <div class="about m-md py-sm d-flex">
+                <p class="text-sm">
+                    Zovem se Filip Lazarevic i dolazim iz Panceva.Imam 22 godine.Krenuo sam da se bavim web programiranjem pre 3 godine.Od tad se trudim da se svakodnevno usavrsavam i ucim nove stvari.Veoma sam pouzdana,motivisana i fleksibilna osoba koja najvise moze da pruzi u kolektivnom radu.Posedujem veoma dobre komunikacione vestine i vestine za resavanje problema.
+                </p>
+                <a href="https://www.linkedin.com/in/filip-lazarevic-58a473221/" target="_blank" class="linkedin text-sm text-center">LinkedIn <i class="fab fa-linkedin"></i></a>
+            </div>
+            <a class="btn" href="cvLoad.docx">Preuzmi CV</a>
+       </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container text-center">
+        <h2 class=" text-lg m-md">Vestine</h2>
+        <div class="tabs card d-flex text-bold">
+            <div class="tab tab-border" data-skill="frontend">Frontend</div>
+            <div class="tab" data-skill="backend">Backend</div>
+            <div class="tab" data-skill="extra">Ostalo</div>
+        </div>
+    
+      </div>
+    </section>
+
+    <section class="languages" id="languages">  
+    </section>
+    <div class="container">
+        <div class="quote">*Proceti znanja jezika su na osnovu moje licne procene*</div>
+    </div>
+
+    <section class="education relative" id="education">
+        <div class="container ">
+            <h2 class=" text-center text-lg m-lg">Obrazovanje</h2>
+            <div class="school-a absolute">
+                <h3 class="text-md">Visoka ICT</h3>
+                <p class="text-sm">Smer - Internet Tehnologije</p>
+                <p class="text-sm">Modul - Web programiranje</p>
+                <p ><i class="fas fa-calendar"></i> 2019 - 2022</p>
+            </div>
+            <div class="education-container ">
+                <span class="dot dot-a"></span>
+                <div class="line"> </div>
+                <span class="dot dot-b"></span>
+            </div>
+            <div class="school-b absolute">
+                <h3>Gimnazija Uros Predic</h3>
+                <p class="text-sm">Pancevo</p>
+                <p class="text-sm">Smer - Prirodni smer</p>
+                <p class="text-sm"><i class="fas fa-graduation-cap"></i> 2014 - 2018</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses" id="courses">
+        <div class="container">
+            <div class="d-grid">
+                <div class="certificate-img">
+                    <img src="img/certificate.jpg" alt="udemy certificate">
+                </div>
+                <div class="courses-about">
+                    <div class="py-sm">
+                        <h3 class="text-lg py-sm">Kursevi</h3>
+                        <div id="course"></div>
+                    </div>
+                    <hr>
+                    <div class="py-sm">
+                        <h3 class="text-lg py-sm">Jezici</h3>
+                        <div id="lang"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" >
+        <div class="container">
+            <h2 class="text-center text-lg m-lg">Projekti</h2>
+            <div class="d-grid" id="projects">
+               
+            </div>
+        </div>
+    </section>
+    <section class="pagination">
+        <div class="container text-center text-md" id="pagination">
+       
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <h3 class="py-sm text-lg">Kontakt</h3>
+            <div class="d-grid m-md">
+                <ul>
+                    <li class="py-sm"><i class="fas fa-arrow-right"></i>Email: lazarevicfilip22&#64;gmail.com</li>
+                    <li class="py-sm"><i class="fas fa-arrow-right"></i>Telefon: &#43;381 66-214-912</li>
+                    <li class="py-sm"><i class="fas fa-arrow-right"></i> <a href="https://www.linkedin.com/in/filip-lazarevic-58a473221/" target="_blank">LinkedIn</a></li>
+                    <li class="py-sm"><i class="fas fa-arrow-right"></i><a href="">Dokumentacija</a></li>
+                </ul>
+                <p class="text-sm">Copyright&copy;<span id="year"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>

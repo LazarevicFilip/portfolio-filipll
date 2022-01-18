@@ -1,0 +1,52 @@
+[
+    {
+        "name" : "Projekat web programiranje PHP 2",
+        "img" : "img/project7.jpg",
+        "languages" : ["HTML5","CSS3","JavaScript","PHP","MySQL"],
+        "desc" : "Projekat je dinamicka web aplikacija.Tema ovog projekta su dogadjai za koje korisnici kupuju karte.Podaci se vuku iz baze.Funkcijalnosti su registracije/logovanje,serverska paginacija,sortiranje,filtriranje,admin panel sa CRUD operacijama,resize slike i korpa.Slanje emajla preko PHPMailera u slucaju uspesne kupovine ili zakljucavanje naloga",
+        "href" : "."
+    },
+    {
+        "name" : "Projekat web programiranje PHP 1",
+        "img" : "img/project6.jpg",
+        "languages" : ["HTML5","CSS3","JavaScript","PHP","MySQL"],
+        "desc" : "Moj prvi dinamicki sajt.Tema ovog projekta je blog post gde se korisnici registruju i kace blogove,pisu komentare i sl.Podaci se vuku iz baze podataka.Server baze podataka je MySQL,a konekcija sa bazom se vrsi preko instance objekta PDO.Sajt sadrzi funkcijalnosti poput: registracije/logovanje,paginacija,komentari,admin panel sa CRUD operacijama.",
+        "href" : ""
+    },
+    {
+        "name" : "Projekat web programiranje 2",
+        "img" : "img/project5.jpg",
+        "languages" : ["HTML5","CSS3","JavaScript","AJAX"],
+        "desc" : "Akcenat na ovom projektu su bili delovi JavaScript poput Ajax i Local Storage.Podaci su bili zapisani u JSON fajlovima koji su se AJAX-om dohvatali i bili dinamicki prikazani potom filtrirani i sortirani po izboru.Rad sa callback funkcijama za obradu asihronih operacija.",
+        "href" : ""
+    },
+    {
+        "name" : "Projekat web programiranje 1",
+        "img" : "img/project4.jpg",
+        "languages" : ["HTML5","CSS3","JavaScript","JQuery"],
+        "desc" : "Moj prvi projekat u kojem je integrisan JavaScript.Sajt je interaktivan i obradjene su oblasti: dinamicko ispisivanje i obrada sadrzaja, obrada forme,validacija + RegEx,Jquery,JQuery plugin...",
+        "href" : ""
+    },
+    {
+        "name" : "Projekat web dizajn 1",
+        "img" : "img/project1.jpg",
+        "languages" : ["HTML","CSS"],
+        "desc" : "Moj prvi ikada projekat.Cilj ovog projekta je upoznavanje sa HTML-om kao struktorm web sajta i CSS-om za stilizovanje sajtova.Pored toga akcenat je na SEO i XML.",
+        "href" : "M"
+    },
+    {
+        "name" : "Projekat web dizajn 2",
+        "img" : "img/project2.jpg",
+        "languages" : ["HTML5","CSS3","SCSS"],
+        "desc" : "Upozavanje sa SASS(SCSS) kao i sa responsive Web-om(media query) koji je svakodnevnica u danasnjem webu. ",
+        "href" : ""
+    },
+    {
+        "name" : "Projekat web dizajn 3",
+        "img" : "img/project3.jpg",
+        "languages" : ["HTML5","CSS3","SCSS","Bootstrap","Materialize"],
+        "desc" : "Cilj ovog projekta je ras sa CSS framework kao sto su Bootstrap i Materialize.U ovom projektu prve 3 strane su odradjene u Bootstrapu a ostale u Materialize",
+        "href" : ""
+    }    
+   
+]
