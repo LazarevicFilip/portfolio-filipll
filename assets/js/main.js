@@ -1,7 +1,7 @@
 window.onload = () => {
     // fetch call with get method
     async function getData(skill){
-        const response = await fetch(`data/${skill}.json`);
+        const response = await fetch(`assets/data/${skill}.json`);
 
         const data = await response.json();
         return data;
