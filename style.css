@@ -307,7 +307,10 @@ i {
   color: var(--white);
   transition: all 0.4s;
 }
-.projects .btn:hover i {
+.projects a {
+  font-size: 14px;
+}
+.projects a:hover i {
   transform: translateX(10px);
 }
 .projects span {

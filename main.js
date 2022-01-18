@@ -145,7 +145,7 @@ window.onload = () => {
                 <span >Koriscene tehnologije:</span>
                 <span>${project.languages}</span>
                 <p class="m-md ">${project.desc}</p>
-                <button class="btn text-bold">Vise<i class="fas fa-arrow-right"></i></button>
+                <a href="${project.href}" target="_blank" class="btn text-bold text-center">Vise<i class="fas fa-arrow-right"></i></a>
             </div>
         </div>`;
         })
