@@ -4,7 +4,7 @@
         "img" : "assets/img/project8.jpg",
         "languages" : ["Laravel","JavaScript","MySQL"],
         "desc" : "Tema ovog projekta je dinamčka web aplikacija koja za cilj ima realizaciju rezervacija za različite objekte.Projekat je podeljen u dva dela.Admin deo to jest admin panel i pristup ovom delu imaju samo korisnici sa ulogom administratora.Admin moze da izvrsi celokupan CRUD nad svim entitetima u projektu.Drugi deo je predviđen za ostale korisnike koji pretražuju,filtriraju i rezervisu objekte.",
-        "github" : "https://github.com/LazarevicFilip/djevents"
+        "github" : "https://github.com/LazarevicFilip/vacationrental"
     },
 
     {
