@@ -113,6 +113,9 @@ i {
 .d-none {
   display: none;
 }
+.w-20{
+  width: 20%;
+}
 /* Text Styling */
 .text-center {
   text-align: center;
@@ -122,12 +125,12 @@ i {
   text-transform: uppercase;
 }
 .text-xl {
-  font-size: 40px;
+  font-size: 45px;
   letter-spacing: 7px;
   font-weight: bold;
 }
 .text-lg {
-  font-size: 30px;
+  font-size: 27px;
 }
 .text-md {
   font-size: 22px;
@@ -190,7 +193,9 @@ i {
 }
 /* showcase section */
 .showcase {
-  margin-top: 50px;
+  background-color: #2D3C1B;
+  margin: 0px;
+  padding: 50px 0;
 }
 .showcase span {
   margin-right: 60px;
@@ -203,22 +208,27 @@ i {
   display: inline-block;
 }
 .showcase .btn:hover,
-.linkedin:hover {
+.social:hover {
   opacity: 0.7;
 }
 .about p {
   width: 75%;
   line-height: 1.6;
+  color: #BDBDBC;
 }
-.linkedin {
-  width: 20%;
-  background-color: #ccc;
+.social {
+  display: block!important;
   border-radius: 10px;
-  color: var(--white);
-  padding: 8px 6px;
+  background-color: var(--white);
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  color: var(--black);
 }
 .linkedin i {
-  color: var(--white);
+  color: #2962ff;
+}
+.github i {
+  color: var(--black);
 }
 /* tabs section */
 .skills .card {
@@ -332,11 +342,16 @@ i {
   background-color: rgb(0, 0, 0, 0.3);
 }
 .projects .btn {
-  margin-top: auto;
+  margin-top: 3px;
+}
+.projects .github{
+  background-color: #0e0e0e;
 }
 .pagination-item {
   display: inline-block;
+  padding: 10px;
   cursor: pointer;
+  border: 1.5px solid var(--secondary-color);
   color: var(--black);
 }
 .pagination-item:hover {
@@ -371,7 +386,7 @@ i {
   .showcase .info {
     text-align: center;
   }
-  .linkedin {
+  .social {
     display: none !important;
   }
   .about.d-flex {
@@ -386,7 +401,7 @@ i {
   .showcase .btn {
     text-align: center;
     display: block;
-    width: 20%;
+    width: 30%;
     margin: 0 auto;
   }
 }
@@ -458,21 +473,22 @@ i {
     margin: 10px 0;
   }
   .school-a {
-    left: 5% !important;
+    left: 2% !important;
   }
   .school-a h3 {
     font-size: 19px;
   }
   .school-a p {
-    font-size: 16px;
+    font-size: 12px;
   }
   .school-b {
-    right: 1% !important;
+    right: 0% !important;
+   
   }
   .school-b h3 {
-    font-size: 19px;
+    font-size: 16px;
   }
   .school-b p {
-    font-size: 16px;
+    font-size: 12px;
   }
 }

@@ -145,11 +145,19 @@ window.onload = () => {
                 <span >Koriscene tehnologije:</span>
                 <span>${project.languages}</span>
                 <p class="m-md ">${project.desc}</p>
-                <a href="${project.href}" target="_blank" class="btn text-bold text-center">Vise<i class="fas fa-arrow-right"></i></a>
+                ${printButtonsForProjects(project)}
             </div>
         </div>`;
         })
         projects.innerHTML = output;
+    }
+    function printButtonsForProjects(data){
+        if(data.href){
+            return `<a href="${data.github}" target="_blank" class="btn github text-bold text-center">GitHub<i class="fas fa-arrow-right"></i></a>
+                    <a href="${data.href}" target="_blank" class="btn text-bold text-center">Projekat<i class="fas fa-arrow-right"></i></a>`;
+        }else{
+            return `<a href="${data.github}" target="_blank" class="btn github text-bold text-center">GitHub<i class="fas fa-arrow-right"></i></a>`;
+        }
     }
     // event for links in pagination (event delagation)
     document.body.addEventListener("click",paginationLinksEvent);
