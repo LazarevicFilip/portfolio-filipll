@@ -13,7 +13,7 @@
         "languages" : ["HTML5","CSS3","JavaScript","PHP","MySQL"],
         "desc" : "Projekat je dinamicka web aplikacija.Tema ovog projekta su dogadjai za koje korisnici kupuju karte.Podaci se vuku iz baze.Funkcijalnosti su registracije/logovanje,serverska paginacija,sortiranje,filtriranje,admin panel sa CRUD operacijama,resize slike i korpa.Slanje emajla preko PHPMailera u slucaju uspesne kupovine ili zakljucavanje naloga",
         "github" : "https://github.com/LazarevicFilip/djevents",
-        "href" : "https://djevents-app.000webhostapp.com/"
+        "href" : "https://djevent-app.000webhostapp.com/"
     },
     {
         "name" : "Projekat web programiranje PHP 1",
