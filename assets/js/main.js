@@ -154,7 +154,7 @@ window.onload = () => {
             </div>
             <div class="project-body">
                 <h4 class="m-sm text-bold">${project.name}</h4>
-                <span >Koriscene tehnologije:</span>
+                <span >Technologies:</span>
                 <span>${project.languages}</span>
                 <p class="m-md ">${project.desc}</p>
                 ${printButtonsForProjects(project)}

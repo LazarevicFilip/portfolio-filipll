@@ -7,14 +7,14 @@
         "github" : "https://github.com/LazarevicFilip/vacationrental"
     },
 	{
-        "name" : "Upload file-ova na aws s3",
+        "name" : "Upload files on aws s3",
         "img" : "assets/img/project9.jpg",
         "languages" : ["Laravel","MySQL"],
         "desc" : "The project does not form a logical unit, but processes certain functionalities such as: file upload to aws s3, email sending, user authentication. After successful registration, the user's image is uploaded to aws s3 and a welcome email is sent to the user.",
         "github" : "https://github.com/LazarevicFilip/uploadFile_sendEmail"
     },
     {
-        "name" : "Projekat web programiranje PHP 2",
+        "name" : "Project web programming PHP 2",
         "img" : "assets/img/project7.jpg",
         "languages" : ["HTML5","CSS3","JavaScript","PHP","MySQL"],
         "desc" : "The project is a dynamic web application. The topic of this project is music events for which users buy tickets. Data is pulled from the database. Functionalities are registration/login, server pagination, sorting, filtering, admin panel with CRUD operations, image resizing and shopping cart. Email sending via PHPMailer in case of a successful purchase or sending an info email about locking the account",
@@ -22,7 +22,7 @@
         "href" : "https://djevent-app.000webhostapp.com/"
     },
     {
-        "name" : "Projekat web programiranje PHP 1",
+        "name" : "Project web programming PHP 1",
         "img" : "assets/img/project6.jpg",
         "languages" : ["HTML5","CSS3","JavaScript","PHP","MySQL"],
         "desc" : "My first dynamic site. The theme of this project is a blog post where users register and write blogs,  comments, etc. The data is pulled from the database. The database server is MySQL, and the connection to the database is made through an instance of the PDO object. Functionalities such as: registration/login, pagination, comments, admin panel with CRUD operations.",
@@ -30,7 +30,7 @@
         "href" : "https://watchtime-app.000webhostapp.com/"
     },
     {
-        "name" : "Projekat web programiranje 2",
+        "name" : "Project web programming 2",
         "img" : "assets/img/project5.jpg",
         "languages" : ["HTML5","CSS3","JavaScript","AJAX"],
         "desc" : "The accent on this project was the JavaScript parts like Ajax and Local Storage. The data was written in JSON files that were fetched by AJAX and were dynamically displayed, then filtered and sorted by choice. Work with callback functions for processing asynchronous operations.",
@@ -38,7 +38,7 @@
         "href" : "https://gamesland.netlify.app"
     },
     {
-        "name" : "Projekat web programiranje 1",
+        "name" : "Project web programming 1",
         "img" : "assets/img/project4.jpg",
         "languages" : ["HTML5","CSS3","JavaScript","JQuery"],
         "desc" : "My first project in which JavaScript is integrated. The site is interactive and the areas covered are: dynamic printing and content processing, form processing, validation + RegEx, Jquery, JQuery plugin...",
@@ -46,7 +46,7 @@
         "href" : "https://mob-shop1.netlify.app"
     },
     {
-        "name" : "Projekat web dizajn 1",
+        "name" : "Project web design 1",
         "img" : "assets/img/project1.jpg",
         "languages" : ["HTML","CSS"],
         "desc" : "My first ever project. The goal of this project is to get familiar with HTML as a web site structure and CSS for styling sites. In addition, the emphasis is on SEO and XML.",
@@ -54,7 +54,7 @@
         "href" : "https://coffefirst.netlify.app"
     },
     {
-        "name" : "Projekat web dizajn 2",
+        "name" : "Project web design 2",
         "img" : "assets/img/project2.jpg",
         "languages" : ["HTML5","CSS3","SCSS"],
         "desc" : "The goal of this project is to get familiar with SASS (SCSS) as well as with responsive Web (media query) which is everyday in today's web.",
@@ -62,7 +62,7 @@
         "href" : "https://portfolio-designer.netlify.app"
     },
     {
-        "name" : "Projekat web dizajn 3",
+        "name" : "Project web design 3",
         "img" : "assets/img/project3.jpg",
         "languages" : ["HTML5","CSS3","SCSS","Bootstrap","Materialize"],
         "desc" : "The goal of this project is to work with CSS frameworks such as Bootstrap and Materialize. In this project, the first 3 pages were made in Bootstrap and the rest in Materialize.",
