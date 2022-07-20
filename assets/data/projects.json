@@ -1,23 +1,23 @@
 [
     {
-        "name" : "Projekat laravel",
+        "name" : "Project laravel",
         "img" : "assets/img/project8.jpg",
         "languages" : ["Laravel","JavaScript","MySQL"],
-        "desc" : "Tema ovog projekta je dinamčka web aplikacija koja za cilj ima realizaciju rezervacija za različite objekte.Projekat je podeljen u dva dela.Admin deo to jest admin panel i pristup ovom delu imaju samo korisnici sa ulogom administratora.Admin moze da izvrsi celokupan CRUD nad svim entitetima u projektu.Drugi deo je predviđen za ostale korisnike koji pretražuju,filtriraju i rezervisu objekte.",
+        "desc" : "The theme of this project is a dynamic web application whose goal is the realization of reservations for different property objects. The project is divided into two parts. The admin part(admin panel) and access to this part is only available to users with the role of administrator. The admin can perform the entire CRUD on all entities. in the project. The second part is intended for other users who search, filter and reserve objects.",
         "github" : "https://github.com/LazarevicFilip/vacationrental"
     },
 	{
         "name" : "Upload file-ova na aws s3",
         "img" : "assets/img/project9.jpg",
         "languages" : ["Laravel","MySQL"],
-        "desc" : "Projekat ne cini logicku celinu vec obradjuje odredjene funkcionalnosti kao sto su: upload file na aws s3,slanje emaila,korisnicka autentifikacija. Nakon uspesne registracije, korsinicka slika se uploduje na aws s3 i korisniku se salje welcome email.",
+        "desc" : "The project does not form a logical unit, but processes certain functionalities such as: file upload to aws s3, email sending, user authentication. After successful registration, the user's image is uploaded to aws s3 and a welcome email is sent to the user.",
         "github" : "https://github.com/LazarevicFilip/uploadFile_sendEmail"
     },
     {
         "name" : "Projekat web programiranje PHP 2",
         "img" : "assets/img/project7.jpg",
         "languages" : ["HTML5","CSS3","JavaScript","PHP","MySQL"],
-        "desc" : "Projekat je dinamicka web aplikacija.Tema ovog projekta su dogadjai za koje korisnici kupuju karte.Podaci se vuku iz baze.Funkcijalnosti su registracije/logovanje,serverska paginacija,sortiranje,filtriranje,admin panel sa CRUD operacijama,resize slike i korpa.Slanje emajla preko PHPMailera u slucaju uspesne kupovine ili zakljucavanje naloga",
+        "desc" : "The project is a dynamic web application. The topic of this project is music events for which users buy tickets. Data is pulled from the database. Functionalities are registration/login, server pagination, sorting, filtering, admin panel with CRUD operations, image resizing and shopping cart. Email sending via PHPMailer in case of a successful purchase or sending an info email about locking the account",
         "github" : "https://github.com/LazarevicFilip/djevents",
         "href" : "https://djevent-app.000webhostapp.com/"
     },
@@ -25,7 +25,7 @@
         "name" : "Projekat web programiranje PHP 1",
         "img" : "assets/img/project6.jpg",
         "languages" : ["HTML5","CSS3","JavaScript","PHP","MySQL"],
-        "desc" : "Moj prvi dinamicki sajt.Tema ovog projekta je blog post gde se korisnici registruju i kace blogove,pisu komentare i sl.Podaci se vuku iz baze podataka.Server baze podataka je MySQL,a konekcija sa bazom se vrsi preko instance objekta PDO.Sajt sadrzi funkcijalnosti poput: registracije/logovanje,paginacija,komentari,admin panel sa CRUD operacijama.",
+        "desc" : "My first dynamic site. The theme of this project is a blog post where users register and write blogs,  comments, etc. The data is pulled from the database. The database server is MySQL, and the connection to the database is made through an instance of the PDO object. Functionalities such as: registration/login, pagination, comments, admin panel with CRUD operations.",
         "github" : "https://github.com/LazarevicFilip/watchtime",
         "href" : "https://watchtime-app.000webhostapp.com/"
     },
@@ -33,7 +33,7 @@
         "name" : "Projekat web programiranje 2",
         "img" : "assets/img/project5.jpg",
         "languages" : ["HTML5","CSS3","JavaScript","AJAX"],
-        "desc" : "Akcenat na ovom projektu su bili delovi JavaScript poput Ajax i Local Storage.Podaci su bili zapisani u JSON fajlovima koji su se AJAX-om dohvatali i bili dinamicki prikazani potom filtrirani i sortirani po izboru.Rad sa callback funkcijama za obradu asihronih operacija.",
+        "desc" : "The accent on this project was the JavaScript parts like Ajax and Local Storage. The data was written in JSON files that were fetched by AJAX and were dynamically displayed, then filtered and sorted by choice. Work with callback functions for processing asynchronous operations.",
         "github" : "https://github.com/LazarevicFilip/gamesland",
         "href" : "https://gamesland.netlify.app"
     },
@@ -41,7 +41,7 @@
         "name" : "Projekat web programiranje 1",
         "img" : "assets/img/project4.jpg",
         "languages" : ["HTML5","CSS3","JavaScript","JQuery"],
-        "desc" : "Moj prvi projekat u kojem je integrisan JavaScript.Sajt je interaktivan i obradjene su oblasti: dinamicko ispisivanje i obrada sadrzaja, obrada forme,validacija + RegEx,Jquery,JQuery plugin...",
+        "desc" : "My first project in which JavaScript is integrated. The site is interactive and the areas covered are: dynamic printing and content processing, form processing, validation + RegEx, Jquery, JQuery plugin...",
         "github" : "https://github.com/LazarevicFilip/mobshop",
         "href" : "https://mob-shop1.netlify.app"
     },
@@ -49,7 +49,7 @@
         "name" : "Projekat web dizajn 1",
         "img" : "assets/img/project1.jpg",
         "languages" : ["HTML","CSS"],
-        "desc" : "Moj prvi ikada projekat.Cilj ovog projekta je upoznavanje sa HTML-om kao struktorm web sajta i CSS-om za stilizovanje sajtova.Pored toga akcenat je na SEO i XML.",
+        "desc" : "My first ever project. The goal of this project is to get familiar with HTML as a web site structure and CSS for styling sites. In addition, the emphasis is on SEO and XML.",
         "github" : "https://github.com/LazarevicFilip/coffeFirst",
         "href" : "https://coffefirst.netlify.app"
     },
@@ -57,7 +57,7 @@
         "name" : "Projekat web dizajn 2",
         "img" : "assets/img/project2.jpg",
         "languages" : ["HTML5","CSS3","SCSS"],
-        "desc" : "Upozavanje sa SASS(SCSS) kao i sa responsive Web-om(media query) koji je svakodnevnica u danasnjem webu. ",
+        "desc" : "The goal of this project is to get familiar with SASS (SCSS) as well as with responsive Web (media query) which is everyday in today's web.",
         "github" : "https://github.com/LazarevicFilip/webdizajnprojekat2",
         "href" : "https://portfolio-designer.netlify.app"
     },
@@ -65,7 +65,7 @@
         "name" : "Projekat web dizajn 3",
         "img" : "assets/img/project3.jpg",
         "languages" : ["HTML5","CSS3","SCSS","Bootstrap","Materialize"],
-        "desc" : "Cilj ovog projekta je ras sa CSS framework kao sto su Bootstrap i Materialize.U ovom projektu prve 3 strane su odradjene u Bootstrapu a ostale u Materialize",
+        "desc" : "The goal of this project is to work with CSS frameworks such as Bootstrap and Materialize. In this project, the first 3 pages were made in Bootstrap and the rest in Materialize.",
         "github" : "https://github.com/LazarevicFilip/blokinvest",
         "href" : "https://blokinvest.netlify.app"
     }    

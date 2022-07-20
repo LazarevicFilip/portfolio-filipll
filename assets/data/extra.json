@@ -1,14 +1,14 @@
 [
     {
         "title" : "Linux",
-        "precentege" : 80
+        "precentege" : "Upper Intermediate"
     },
     {
         "title" : "Git",
-        "precentege" : 60
+        "precentege" : "Upper Intermediate"
     },
     {
         "title" : "Media Query",
-        "precentege" : 80
+        "precentege" : "Upper Intermediate"
     }
 ]

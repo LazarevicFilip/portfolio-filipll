@@ -1,22 +1,30 @@
 [
     {
-        "title" : "Laravel",
-        "precentege" : 80
-    },
-    {
         "title" : "PHP",
-        "precentege" : 75
+        "precentege" : "Upper Intermediate"
     },
     {
-        "title" : "MySQL",
-        "precentege" : 75
+        "title" : "Laravel",
+        "precentege" : "Upper Intermediate"
+    },
+    {
+        "title" : ".NET",
+        "precentege" : "Upper Intermediate"
+    },
+    {
+        "title" : "C#",
+        "precentege" : "Upper Intermediate"
+    },
+    {
+        "title" : "SQL",
+        "precentege" : "Upper Intermediate"
     },
     {
         "title" : "OOP",
-        "precentege" : 70
+        "precentege" : "Pre-advanced"
     },
     {
         "title" : "API'S",
-        "precentege" : 65
+        "precentege" : "Upper Intermediate"
     }
 ]

@@ -7,7 +7,7 @@ window.onload = () => {
         return data;
     }
     // initial display 
-    getData("frontend")
+    getData("backend")
     .then(data => printSkills(data))
     .catch(err => console.log(err));
 
@@ -82,15 +82,27 @@ window.onload = () => {
             output += `<div class="language m-md">
             <div class="lang-title d-flex">
                 <h3 class="skill_name">${skill.title}</h3>
-                <span class="skill_num">${skill.precentege}%</span>
+                <span class="skill_num">${skill.precentege}</span>
             </div>
             <div class="skills-bar m-sm">
-                <div class="skill_percentage skills_php" style="width:${skill.precentege}%;"></div>
+                <div class="skill_percentage skills_php" style="width:${paintSkillBars(skill.precentege)}%;"></div>
             </div>
         </div>`
       
         });
         languages.innerHTML = output;
+    }
+    function paintSkillBars(precentege){
+        if(precentege == "Intermediate"){
+            return 60;
+        }else if(precentege == "Upper Intermediate"){
+            return 70;
+        }else if(precentege == "Pre-advanced"){
+            return 80;
+        }
+        else if(precentege == "Advanced"){
+            return 90;
+        }
     }
     // print courses and speaken languages
     getData("courses")
@@ -154,7 +166,7 @@ window.onload = () => {
     function printButtonsForProjects(data){
         if(data.href){
             return `<a href="${data.github}" target="_blank" class="btn github text-bold text-center">GitHub<i class="fas fa-arrow-right"></i></a>
-                    <a href="${data.href}" target="_blank" class="btn text-bold text-center">Projekat<i class="fas fa-arrow-right"></i></a>`;
+                    <a href="${data.href}" target="_blank" class="btn text-bold text-center">Project<i class="fas fa-arrow-right"></i></a>`;
         }else{
             return `<a href="${data.github}" target="_blank" class="btn github text-bold text-center">GitHub<i class="fas fa-arrow-right"></i></a>`;
         }
