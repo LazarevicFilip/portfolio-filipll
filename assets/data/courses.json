@@ -10,18 +10,18 @@
         "group" : "courses"
     },
     {
-        "name" : "NLP Programiranje",
-        "by" : "Komunikacioni modeli",
+        "name" : "NLP Programming",
+        "by" : "Communication models",
         "group" : "courses"
     },
     {
-        "name" : "Srpski ",
-        "level" : "Maternji",
+        "name" : "Serbian ",
+        "level" : "Native or Bilingual",
         "group" : "languages"
     },
     {
-        "name" : "Engleski",
-        "level" : "Srednji nivo",
+        "name" : "English",
+        "level" : "Fluent",
         "group" : "languages"
     }
 ]

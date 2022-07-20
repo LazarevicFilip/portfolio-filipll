@@ -1,22 +1,22 @@
 [
     {
         "title" : "HTML 5",
-        "precentege" : 90
+        "precentege" : "Advanced"
     },
     {
         "title" : "CSS 3",
-        "precentege" : 80
+        "precentege" : "Pre-advanced"
     },
     {
         "title" : "JavaScript",
-        "precentege" : 80
+        "precentege" : "Upper Intermediate"
     },
     {
         "title" : "Bootstrap",
-        "precentege" : 85
+        "precentege" : "Pre-advanced"
     },
     {
         "title" : "SASS",
-        "precentege" : 70
+        "precentege" : "Upper Intermediate"
     }
 ]
